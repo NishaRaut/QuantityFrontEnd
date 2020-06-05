@@ -1,38 +1,72 @@
-.App {
+ .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formControl{
+  width: 190px;
+  position: 'relative';
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-units-feild{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 400px;
+}
+.main-div{
+  display: flex;
+  height:100vh;
+  justify-content: center; 
+  align-items:center;
+
+}
+.converter-div{
+
+width:50%;
+height: 60%;
+}
+
+.heading{
+  display: flex;
+  height: 16%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 162%;
+  font-family: -webkit-body;
+  color: black;
+}
+.operation-div{
+  /* background-color: red; */
+  border: 1px solid black;
+}
+.main-units{
+  height: 88px;
+  display: flex;
+  justify-content: center; 
+  align-items:center;
+  /* background-color: yellow; */
 }
 
-.App-link {
-  color: #61dafb;
+.feilds{
+  height: 88px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  /* background-color: green; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.equal-sign{
+  height: 28px;
+  display: flex;
+  justify-content: center; 
+  align-items:center;
+  /* background-color: yellow; */
+}
+
+.sub-units{
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  /* background-color: green; */
+}
+.text-feilds{
+
 }
